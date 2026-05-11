@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" width="200" height="260">
+  <!-- 배낭끈 -->
+  <path d="M55 100 Q50 130 60 175" stroke="#8b6f47" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M145 100 Q150 130 140 175" stroke="#8b6f47" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- 배낭 (뒤) -->
+  <ellipse cx="155" cy="155" rx="22" ry="28" fill="#a8855a" stroke="#6b5337" stroke-width="2.5"/>
+  <rect x="142" y="148" width="26" height="6" fill="#6b5337" rx="2"/>
+  <!-- 몸통 (구름같은 양털) -->
+  <g fill="#fefefe" stroke="#3a3027" stroke-width="2.5" stroke-linejoin="round">
+    <circle cx="100" cy="170" r="55"/>
+    <circle cx="65" cy="155" r="22"/>
+    <circle cx="135" cy="155" r="22"/>
+    <circle cx="70" cy="185" r="20"/>
+    <circle cx="130" cy="185" r="20"/>
+    <circle cx="100" cy="205" r="22"/>
+  </g>
+  <!-- 다리 -->
+  <rect x="78" y="215" width="14" height="22" fill="#fefefe" stroke="#3a3027" stroke-width="2.5" rx="3"/>
+  <rect x="108" y="215" width="14" height="22" fill="#fefefe" stroke="#3a3027" stroke-width="2.5" rx="3"/>
+  <ellipse cx="85" cy="240" rx="10" ry="6" fill="#6b5337" stroke="#3a3027" stroke-width="2"/>
+  <ellipse cx="115" cy="240" rx="10" ry="6" fill="#6b5337" stroke="#3a3027" stroke-width="2"/>
+  <!-- 얼굴 (양털 머리 부분) -->
+  <g fill="#fefefe" stroke="#3a3027" stroke-width="2.5" stroke-linejoin="round">
+    <circle cx="100" cy="85" r="48"/>
+    <circle cx="68" cy="65" r="18"/>
+    <circle cx="132" cy="65" r="18"/>
+    <circle cx="60" cy="90" r="16"/>
+    <circle cx="140" cy="90" r="16"/>
+    <circle cx="75" cy="45" r="14"/>
+    <circle cx="125" cy="45" r="14"/>
+    <circle cx="100" cy="38" r="14"/>
+  </g>
+  <!-- 귀 -->
+  <ellipse cx="50" cy="95" rx="9" ry="14" fill="#f5dccd" stroke="#3a3027" stroke-width="2.2" transform="rotate(-25 50 95)"/>
+  <ellipse cx="150" cy="95" rx="9" ry="14" fill="#f5dccd" stroke="#3a3027" stroke-width="2.2" transform="rotate(25 150 95)"/>
+  <!-- 얼굴 (피부톤) -->
+  <ellipse cx="100" cy="100" rx="32" ry="32" fill="#fef3eb" stroke="#3a3027" stroke-width="2.2"/>
+  <!-- 볼터치 -->
+  <ellipse cx="76" cy="108" rx="6" ry="4" fill="#f5c0c0" opacity="0.7"/>
+  <ellipse cx="124" cy="108" rx="6" ry="4" fill="#f5c0c0" opacity="0.7"/>
+  <!-- 눈 -->
+  <ellipse cx="86" cy="95" rx="4.5" ry="6" fill="#2e2a24"/>
+  <ellipse cx="114" cy="95" rx="4.5" ry="6" fill="#2e2a24"/>
+  <circle cx="87.5" cy="92.5" r="1.5" fill="white"/>
+  <circle cx="115.5" cy="92.5" r="1.5" fill="white"/>
+  <!-- 눈썹 (살짝 걱정스러운) -->
+  <path d="M80 84 Q86 81 92 84" stroke="#3a3027" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M108 84 Q114 81 120 84" stroke="#3a3027" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <!-- 코 -->
+  <path d="M97 108 Q100 112 103 108" stroke="#3a3027" stroke-width="1.8" fill="#3a3027" stroke-linecap="round"/>
+  <!-- 입 -->
+  <path d="M97 117 Q100 120 103 117" stroke="#3a3027" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+</svg>
